@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Ryan Giraldi</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <script src="https://kit.fontawesome.com/0d4193b929.js" crossorigin="anonymous"></script>
+
+    <style>
+        body.darkmode {
+            background-color: #162133; 
+
+            header {
+                background-color: #162236;
+                color: #446389;
+            }
+
+            #bem-vindo {
+                color: #7f858f;
+            }
+
+            .trctema {
+                background-color: #7f858f;
+                color: #162133;
+            }
+
+            .trctema:hover {
+                background-color: #2563eb;
+                color: white;
+            }
+
+            h2 {
+                color: white;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">RYAN GIRALDI</div>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Formações</a>
+            <a href="#">Projetos</a>
+        </nav>
+
+        <button class="trctema" onclick="document.body.classList.toggle('darkmode')">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+        <!--
+        <div class="trctema">
+            <i class="fa-solid fa-moon"></i>
+        </div>
+        -->
+    </header>
+
+    <main>
+        
+        <section id="incio" class="secao-principal">
+            <h1 id="bem-vindo">Bem-Vindo ao <br> Portfolio de Ryan Giraldi</h1>
+        
+            <div class="social-icons">
+                <a href="#"><img src="imagens/placa-do-github.png" alt="Github"></a>
+                <a href="#"><img src="imagens/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="imagens/linkedin.png" alt="Linkedin"></a>
+            </div>
+        </section>
+
+        <section id="formacoes">
+            <h2>Formações</h2>
+
+            <div id="formacao">
+               <div id="formacao-container">
+                    <div class="curso">
+                        <p class="periodo">
+                            0000 - 0000
+                        </p>
+                        <h3 class="instituicao">***** ** *****</h3>
+                        <p class="titulacao">
+                            Técnico em Informática
+                        </p>
+                    </div>
+                </div> 
+            </div>
+        </section>
+    </main>
+
+    
+</body>
+</html>
